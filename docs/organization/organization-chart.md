@@ -3,13 +3,13 @@
 Status: Approved
 
 Owner:
-Chief AI Company Architect
+Architecture Council
 
 Repository management:
 Jarvis (CTO)
 
 Version:
-1.1
+1.2
 
 Created:
 2026-06-29
@@ -44,6 +44,10 @@ Governance · AEP · ADR · Principles · Long-term Consistency · Architecture 
 > role governs the company operating system. It does **not** manage engineering
 > execution.
 
+The Chief AI Company Architect holds **architectural authority, not management
+authority**. It is an **executive role**, distinct from the Architecture Council
+(an organizational body — see below); the two are not interchangeable.
+
 ### Chief Technology Officer — Jarvis
 
 Engineering · Repository · Git · Software Delivery · Technical Review ·
@@ -65,8 +69,22 @@ Founder (Jefferson)
 ```
 
 - The **CTO** and the **Chief AI Company Architect** are peers under the Founder.
-- **Engineering execution remains under the CTO.** Every AI employee reports
-  through the CTO.
+- **Engineering employees report only to the CTO.** The Chief AI Company
+  Architect has architectural authority over them, not management authority.
+
+## Architecture Council
+
+The **Architecture Council** is an organizational body (not a single person). It
+holds architectural governance for AICOS; the **Chief AI Company Architect**
+executive role is filled by its Chair.
+
+```
+Architecture Council
+└── Chair
+    └── Chief AI Company Architect (Luke)
+```
+
+Future members may be added to the Council without changing governance.
 
 ## Governance split
 
