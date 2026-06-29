@@ -3,9 +3,10 @@
 Status: Draft
 
 Authors:
+- Jefferson (Founder)
 - Luke (Architecture Council)
 
-Reviewers:
+Technical Editor:
 - Jarvis (CTO)
 
 Approvers:
