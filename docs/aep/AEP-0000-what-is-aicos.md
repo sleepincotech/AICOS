@@ -13,7 +13,7 @@ Approvers:
 - Founder
 
 Version:
-0.2
+0.3
 
 Created:
 2026-06-27
@@ -113,6 +113,10 @@ changes in models, vendors, and tooling.
 - **Company Knowledge belongs to the Company.** Context, history, and decisions
   are company assets stored centrally — not locked inside an individual operator,
   a chat session, or a person's memory.
+- **Organizational Memory over Model Memory.** Company knowledge must never
+  depend on any single AI provider or model. Organizational memory belongs to
+  AICOS; Git is its canonical implementation. A provider may be replaced at any
+  time without the company losing what it knows.
 - **Documentation before Implementation.** Significant changes are written down
   and agreed before they are built. The document is the contract; the
   implementation follows it.
