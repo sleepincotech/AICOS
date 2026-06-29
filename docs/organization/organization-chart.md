@@ -3,70 +3,96 @@
 Status: Approved
 
 Owner:
-Architecture Council
+Chief AI Company Architect
 
 Repository management:
 Jarvis (CTO)
 
 Version:
-1.0
+1.1
 
 Created:
 2026-06-29
 
 ---
 
-The canonical organizational structure of AICOS. This document records
-**organizational roles** and the people or AI employees currently filling them.
-Roles are stable; the operator behind a role may change without changing the
-role (see AEP-0000, *Role over Provider*).
+The canonical organizational structure of AICOS, including the **Executive
+Governance Model v0.1**. This document records **organizational roles** and the
+people or AI employees currently filling them. Roles are stable; the operator
+behind a role may change without changing the role (see AEP-0000, *Role over
+Provider*).
 
-## Current organization
+## Executive Leadership
 
-| Role | Member |
-| --- | --- |
-| Founder | Jefferson |
-| Architecture Council | Luke |
-| CTO | Jarvis |
-| Software Engineer | Kodi |
-| Platform Engineer | Hermes |
-| Assistant & Intelligence Agent | Mark |
-| QA & Local Intelligence | Goose |
+Architecture and Technology are **separate executive functions**. Both report
+directly to the Founder and collaborate as peers; neither is subordinate to the
+other.
 
-## Reporting lines
+### Founder — Jefferson
+
+Vision · Strategy · Capital Allocation · Final Decisions · Organizational
+Direction.
+
+> The Founder decides **WHERE** the company goes.
+
+### Chief AI Company Architect — Luke
+
+Company Architecture · Organizational Architecture · Knowledge Architecture ·
+Governance · AEP · ADR · Principles · Long-term Consistency · Architecture Review.
+
+> The Chief AI Company Architect decides **HOW the company should operate**. The
+> role governs the company operating system. It does **not** manage engineering
+> execution.
+
+### Chief Technology Officer — Jarvis
+
+Engineering · Repository · Git · Software Delivery · Technical Review ·
+Engineering Standards · Release Management · Engineering Team.
+
+> The CTO decides **HOW technology is implemented**. The CTO does **not** own
+> company architecture.
+
+## Reporting model
 
 ```
 Founder (Jefferson)
-        ↓
-Architecture Council (Luke)
-        ↓
-CTO (Jarvis)
-        ↓
-Engineering (Kodi) · Platform (Hermes) · Assistant (Mark) · QA (Goose)
+├── Chief AI Company Architect (Luke)
+└── Chief Technology Officer (Jarvis)
+        ├── Software Engineer (Kodi)
+        ├── Platform Engineer (Hermes)
+        ├── Assistant & Intelligence (Mark)
+        └── QA & Local Intelligence (Goose)
 ```
 
-- The **Founder** sets direction and gives final approval.
-- The **Architecture Council** owns architecture, principles, and governance.
-- The **CTO** owns engineering governance, review, versioning, and repository
-  management, and coordinates the Engineering / Platform / Assistant / QA roles.
-- Every AI employee reports through the CTO.
+- The **CTO** and the **Chief AI Company Architect** are peers under the Founder.
+- **Engineering execution remains under the CTO.** Every AI employee reports
+  through the CTO.
 
-## Role responsibilities (long-term)
+## Governance split
 
-| Role | Responsibility |
+| Chief AI Company Architect owns | CTO owns |
 | --- | --- |
-| Luke — Architecture Council | Architecture, AEPs, principles, governance, long-term consistency. |
-| Jarvis — CTO | Engineering governance, task decomposition, review, Git workflow, versioning, repository management. |
-| Kodi — Software Engineer | Implementation: coding, refactoring, bug fixing, testing. |
-| Hermes — Platform Engineer | Platform, MCP, skills, tools, dispatcher, internal infrastructure. |
-| Mark — Assistant & Intelligence Agent | Assistant tasks, reminders, intelligence and collection, market-operation suggestions. |
-| Goose — QA & Local Intelligence | Verification, QA, local search, RAG, summaries. |
+| Architecture | Engineering |
+| Standards | Delivery |
+| Organizational Principles | Repository |
+| Long-term Evolution | Technical Execution |
+
+> Architecture defines the destination. Technology builds the road.
+
+## Engineering organization
+
+| Role | Member | Responsibility |
+| --- | --- | --- |
+| Software Engineer | Kodi | Implementation: coding, refactoring, bug fixing, testing. |
+| Platform Engineer | Hermes | Platform, MCP, skills, tools, dispatcher, internal infrastructure. |
+| Assistant & Intelligence Agent | Mark | Assistant tasks, reminders, intelligence and collection, market-operation suggestions. |
+| QA & Local Intelligence | Goose | Verification, QA, local search, RAG, summaries. |
 
 ## Onboarding of future AI employees
 
 Every future AI employee is onboarded **through the CTO**, following
 [`onboarding.md`](onboarding.md). New roles or changes to this chart are proposed
-through the Architecture Council and recorded here after Founder approval.
+through the Chief AI Company Architect and recorded here after Founder approval.
 
 ## References
 

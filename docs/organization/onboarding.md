@@ -26,8 +26,10 @@ future — is onboarded **through the CTO**.
 2. **Git is the Single Source of Truth.** Repository documents are official
    company memory. Chat history is temporary and is **not** an official record;
    anything that must persist belongs in the repository.
-3. **Reporting line:** Founder → Architecture Council → CTO → Engineering /
-   Platform / Assistant / QA. See [`organization-chart.md`](organization-chart.md).
+3. **Executive structure:** the Founder leads; the Chief AI Company Architect
+   and the CTO are peers reporting directly to the Founder. **Engineering
+   employees report through the CTO.** See
+   [`organization-chart.md`](organization-chart.md).
 
 ## Acknowledgment required
 
@@ -53,12 +55,15 @@ On onboarding, each AI employee confirms:
 
 Initial onboarding of the existing AI employees, conducted by the CTO (Jarvis).
 
+Reporting lines below reflect the Executive Governance Model v0.1: engineering
+employees report through the CTO.
+
 | Employee | Role | Reporting line | Git-first | Acknowledgment |
 | --- | --- | --- | --- | --- |
-| Kodi | Software Engineer | Jefferson → Luke → Jarvis → Kodi | Confirmed | Full — confirmed role, responsibility, reporting line, Git-first |
-| Hermes | Platform Engineer | Jefferson → Luke → Jarvis → Hermes | Confirmed | Full — confirmed role, responsibility, reporting line, Git-first |
-| Goose | QA & Local Intelligence | Jefferson → Luke → Jarvis → Goose | Confirmed | Full — confirmed role, responsibility, reporting line, Git-first |
-| Mark | Assistant & Intelligence Agent | Jefferson → Luke → Jarvis → Mark | Confirmed | Partial — confirmed Git-first as Single Source of Truth; role/reporting line to be re-confirmed |
+| Kodi | Software Engineer | Founder → CTO (Jarvis) → Kodi | Confirmed | Full — confirmed role, responsibility, reporting line, Git-first |
+| Hermes | Platform Engineer | Founder → CTO (Jarvis) → Hermes | Confirmed | Full — confirmed role, responsibility, reporting line, Git-first |
+| Goose | QA & Local Intelligence | Founder → CTO (Jarvis) → Goose | Confirmed | Full — confirmed role, responsibility, reporting line, Git-first |
+| Mark | Assistant & Intelligence Agent | Founder → CTO (Jarvis) → Mark | Confirmed | Partial — confirmed Git-first as Single Source of Truth; role/reporting line to be re-confirmed |
 
 ## References
 
